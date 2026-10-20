@@ -3,7 +3,9 @@ My hands-on Linux and DevOps journey: repurposing laptops, self-hosting services
 
 ## Where it all started
 As time passed, I saw that I had many online subscriptions, such as : Netflix (8€), Disney+ (11€), Amazon Prime Video (7€), Spotify (12€) and Google One (30€/ year mostly for my Google Photos).
+
 The total amount I was paying each month was a lot : 40,5 €/month
+
 And the annual amount : 486 €
 
 The worst part, is knowing that the movie that I wanted to watch isn't available on the 3 streaming platforms that I pay for, or maybe it's not available anymore.
