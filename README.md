@@ -55,7 +55,7 @@ The installation process wasn't easy.
 
 1st step : 
 Download ubuntu server iso.(https://ubuntu.com/download/server)
-Make your USB a bootable stick with the iso and Rufus.
+Make your USB a bootable stick with the iso and Rufus. (https://rufus.ie/en/)
 
 2nd step : booting up with USB Stick 
 
@@ -69,6 +69,12 @@ Make your USB a bootable stick with the iso and Rufus.
 By default, the boot order is Windows then the USB stick. We have to choose to boot with the USB stick thanks to the arrows and enter button
 
 5 - Accept or refuse install options
+<img width="1125" height="362" alt="image" src="https://github.com/user-attachments/assets/a74f967f-f1ed-4817-a59e-68958d652b1b" />
+Use entire disk (the option I chose since I only want to use Linux and remove the Windows OS)
+
+6 - Install OpenSSH server. This will be very useful to connect to this server remotely with another computer
+<img width="1318" height="992" alt="image" src="https://github.com/user-attachments/assets/78c8e2ff-be23-48a4-844b-41bd72e5ccef" />
+
 
 Since my L580 computer wasn't connected to the router with e-thernet cable (which is recommended) I had to configure my laptop through wifi, which wasn't built-in. 
 
