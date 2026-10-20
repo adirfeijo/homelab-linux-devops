@@ -31,3 +31,13 @@ Google Photos --> Immich
 Google One --> Nextcloud
 
 Netflix, Disney+ and Prime Video and Spotify --> Jellyfin 
+
+## Hardware
+I started out with my wifes' old Sony Vaio Laptop from 2010. Then moved on to my other laptop : Lenovo L580.
+Here are the specs.
+Lenovo L580
+Intel(R) Core(TM) i5-8350U CPU @ 1.70GHz
+8gb of RAM
+
+## Installation process
+
