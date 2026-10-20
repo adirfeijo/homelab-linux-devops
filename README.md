@@ -54,7 +54,7 @@ The laptop's screen is partially broken (upper left corner) and it has windows w
 The installation process wasn't easy.
 
 1st step : 
-Download ubuntu server iso.
+Download ubuntu server iso.(https://ubuntu.com/download/server)
 Make your USB a bootable stick with the iso and Rufus.
 
 2nd step : booting up with USB Stick 
