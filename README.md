@@ -39,7 +39,9 @@ Here are the specs.
 Lenovo ThinkPad L580
 
 Processor : Intel(R) Core(TM) i5-8350U CPU @ 1.70GHz
+
 RAM : 8GB
+
 Storage : 256GB
 
 ## Installation process
