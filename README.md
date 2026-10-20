@@ -33,7 +33,7 @@ Google One --> Nextcloud
 Netflix, Disney+ and Prime Video and Spotify --> Jellyfin 
 
 ## Hardware
-I started out with my wifes' old Sony Vaio Laptop from 2010. Then moved on to my other laptop : Lenovo L580.
+I started out with my wifes' old Sony Vaio Laptop from 2010. Then moved on to my other laptop : a friends old Lenovo L580.
 Here are the specs.
 
 Lenovo ThinkPad L580
@@ -45,4 +45,30 @@ RAM : 8GB
 Storage : 256GB
 
 ## Installation process
+
+<img width="4080" height="3072" alt="l580 before" src="https://github.com/user-attachments/assets/5984810b-c06a-40e3-bf78-19d0ca2b75c5" />
+
+As the image shows, I didn't have the easiest start. 
+
+The laptop's screen is partially broken (upper left corner) and it has windows with an account and password I don't have access to.
+The installation process wasn't easy.
+
+1st step : 
+Download ubuntu server iso.
+Make your USB a bootable stick with the iso and Rufus.
+
+2nd step : booting up with USB Stick 
+
+1 - Turn off the laptop
+
+2 - Connect the Lenovo L580 to an external monitor through HDMI
+
+3 - Press power on button
+
+4 - When the screen turns on, press F11 button several times. This enables to enter the BIOS to change the boot order.
+By default, the boot order is Windows then the USB stick. We have to choose to boot with the USB stick thanks to the arrows and enter button
+
+5 - Accept or refuse install options
+
+Since my L580 computer wasn't connected to the router with e-thernet cable (which is recommended) I had to configure my laptop through wifi, which wasn't built-in. 
 
