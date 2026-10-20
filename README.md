@@ -25,6 +25,9 @@ I'll be explaining everything in this repository and documenting my journey.
 
 ## Project Goals
 The idea is to replace my current subscriptions with free open-source ones.
+
 Google Photos --> Immich
+
 Google One --> Nextcloud
+
 Netflix, Disney+ and Prime Video and Spotify --> Jellyfin 
