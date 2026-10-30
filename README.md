@@ -1,6 +1,8 @@
 # Homelab : My Linux & DevOps Journey
 My hands-on Linux and DevOps journey: repurposing laptops, self-hosting services, and documenting troubleshooting and automation.
 
+## Episode 01 — The beginnings 🐧
+
 ## Why I Started
 Over time, I realized that I had many online subscriptions, such as : Netflix (8€), Disney+ (11€), Amazon Prime Video (7€), Spotify (12€) and Google One (30€/ year mostly for my Google Photos).
 
@@ -78,3 +80,25 @@ Use entire disk (the option I chose since I only want to use Linux and remove th
 
 Since my L580 computer wasn't connected to the router with e-thernet cable (which is recommended) I had to configure my laptop through wifi, which wasn't built-in. 
 
+## Episode 02 — From a broken screen to a headless Linux server 🐧
+
+I successfully turned a Lenovo ThinkPad L580 with a damaged screen into a working Ubuntu Server, remotely accessible from my MSI laptop.
+
+### What I've achieved
+
+- ✅ Installed Ubuntu Server and removed Windows
+- ✅ Configured Wi-Fi using Netplan
+- ✅ Enabled SSH for remote administration
+- ✅ Configured the laptop to run with its lid closed
+- ✅ Monitored battery health and system temperatures
+- ✅ Mounted a 1 TB external NTFS hard drive
+- ✅ Configured persistent storage using `/etc/fstab`
+- ✅ Documented troubleshooting steps and lessons learned
+
+**One of my biggest lessons:** Linux administration is not just about running commands. It's about understanding problems, testing solutions, and learning from mistakes.
+
+📖 **[Read my full technical walkthrough — Commands, troubleshooting and lessons learned](docs/episode-02-lenovo-l580.md)**
+
+### What's next?
+
+My next goal is to install Docker and Docker Compose, followed by Jellyfin to start building my own self-hosted media server.
