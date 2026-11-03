@@ -102,3 +102,23 @@ I successfully turned a Lenovo ThinkPad L580 with a damaged screen into a workin
 ### What's next?
 
 My next goal is to install Docker and Docker Compose, followed by Jellyfin to start building my own self-hosted media server.
+
+## Episode 03 — Secure remote access with Tailscale and SSH keys 🔐
+
+After making my Lenovo homelab accessible over SSH on my home network, I wanted to reach it securely from elsewhere without exposing SSH directly to the public internet.
+
+### What I achieved
+
+- ✅ Connected the Ubuntu Server and my Windows MSI through a private Tailscale network.
+- ✅ Solved a Tailscale authentication error (`404`) by generating a fresh login URL.
+- ✅ Created a passphrase-protected Ed25519 SSH key on Windows.
+- ✅ Installed the public key on Ubuntu and verified key-based SSH login.
+- ✅ Configured OpenSSH to reject password authentication and tested a rejected password-only attempt.
+- 🔄 Next: verify connectivity from a separate network and review Tailscale access policies.
+
+**What I learned:** Secure access requires more than a working login. I need to test the allowed path, test the denied path, and preserve a recovery method.
+
+📖 **[Read Episode 03 — Commands, troubleshooting, security checks and lessons learned](docs/episode-03-secure-remote-access.md)**
+
+**Next:** Docker and Docker Compose, followed by Jellyfin to serve my existing media library.
+
