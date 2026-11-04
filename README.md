@@ -118,7 +118,35 @@ After making my Lenovo homelab accessible over SSH on my home network, I wanted 
 
 **What I learned:** Secure access requires more than a working login. I need to test the allowed path, test the denied path, and preserve a recovery method.
 
+
 📖 **[Read Episode 03 — Commands, troubleshooting, security checks and lessons learned](docs/episode-03-secure-remote-access.md)**
 
 **Next:** Docker and Docker Compose, followed by Jellyfin to serve my existing media library.
+
+
+## Episode 04 — My first self-hosted media server: Docker + Jellyfin 🍿🐳
+
+My Lenovo homelab now runs **Jellyfin in Docker**, with movies and TV shows read from an external **1 TB NTFS drive**. The media stays **read-only**, while Jellyfin's configuration is stored on the internal SSD.
+
+### What I accomplished
+
+- ✅ Installed Docker Engine and Docker Compose using Docker's official APT repository.
+- ✅ Successfully ran my first container: `hello-world`.
+- ✅ Deployed Jellyfin using a `compose.yaml` file and persistent configuration folders.
+- ✅ Kept the Jellyfin container's web port bound to `127.0.0.1:8096`.
+- ✅ Configured **Tailscale Serve** for private HTTPS access without opening router ports.
+- ✅ Accessed Jellyfin from my **MSI laptop** and **Pixel 9**, including over **4G/5G**.
+- ✅ Confirmed **Direct Play** during movie playback on the Pixel 9.
+- ✅ Backed up Jellyfin's configuration and copied the archive to my MSI.
+- ✅ Verified the media mount, Docker, Jellyfin and Tailscale Serve after rebooting Ubuntu.
+
+### A problem I encountered
+
+Only **61 movies** appeared at first. I thought files were missing, but Jellyfin had not finished scanning the library. Once the scan completed, all my movies and TV series appeared.
+
+**What I learned:** a service is not fully validated just because its container is running. I tested storage, networking, actual playback, backups and reboot behavior.
+
+📖 **[Read Episode 04: Docker, Jellyfin & Tailscale Serve — commands, configuration and lessons learned](docs/episode-04-docker-jellyfin.md)**
+
+**Next:** improve USB-mount readiness and automated backups, then explore Immich and Nextcloud.
 
