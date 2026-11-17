@@ -153,7 +153,7 @@ Only **61 movies** appeared at first. I thought files were missing, but Jellyfin
 ## Episode 05 — Migrating my media library to a 2 TB ext4 drive
 
 **Status:** ✅ Done (Nov 10, 2026), full checksum pass still to do  
-**Journal:** [episode-05-media-disk-migration.md](episode-05-media-disk-migration.md)
+**Journal:** [episode-05-media-disk-migration.md](docs/episode-05-media-disk-migration.md)
 
 I moved my Jellyfin library from an almost-full NTFS USB disk to a 2 TB ext4 drive, without reconfiguring Jellyfin and while keeping the old disk untouched as a safety net.
 
