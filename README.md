@@ -150,3 +150,21 @@ Only **61 movies** appeared at first. I thought files were missing, but Jellyfin
 
 **Next:** improve USB-mount readiness and automated backups, then explore Immich and Nextcloud.
 
+## Episode 05 — Migrating my media library to a 2 TB ext4 drive
+
+**Status:** ✅ Done (Nov 10, 2026), full checksum pass still to do  
+**Journal:** [episode-05-media-disk-migration.md](episode-05-media-disk-migration.md)
+
+I moved my Jellyfin library from an almost-full NTFS USB disk to a 2 TB ext4 drive, without reconfiguring Jellyfin and while keeping the old disk untouched as a safety net.
+
+**Results**
+- 74,483 files (about 867 GB) copied with `rsync` inside `tmux` in 3 h 05, exit code `0`
+- File names, sizes, dates and counts verified identical; SMART counters still at 0 after the copy
+- Jellyfin switched with a one-line Compose change; survived a reboot; plays on a Pixel 9 over 5G and on a PC
+- Recovered from an unexpected USB drop of the dock (cause still unknown): `mount -a` by UUID, container restart, read-only `fsck`
+
+**What I practised**  
+Disk identification and SMART checks through a USB bridge · ext4 sizing (`-T largefile`) · `/etc/fstab` with UUID and `nofail` · resumable copies with rsync and tmux · layered verification · incident analysis with `journalctl`
+
+**Known limitations (documented in the journal)**  
+Full checksum comparison not run yet · Jellyfin does not wait for the disk at boot · a single copy is not a backup
